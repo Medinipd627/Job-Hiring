@@ -1,0 +1,30 @@
+{
+"createJobDetails": {
+		"request": {
+			"url": "/jobtable/jobDetails"
+			"headers": {
+			
+			},
+			"body" :
+			{			
+	        "job_role" : "analyst",
+	        "job_title": "hello_developer",
+	       "job_type" : "shdgajhsd",
+	      "exp_req" : "2",
+        	"sal_max" : "5645636",
+	       "sal_min" : "42424"
+			},
+			"method" : "POST"
+		},
+		"response": {	
+					"status": "OK",	
+			"headers": {
+			},
+			"body": {
+			 "message": "JOB Details saved properly",
+			 
+			}
+       }
+}
+}
+   
